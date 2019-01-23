@@ -17,7 +17,7 @@ var friends = [
       },
       {
         "name":"Black Widow",
-        "photo":"../public/img/blackwidow.jpg",
+        "photo": "../public/img/blackwidow.jpg",
         "scores":[
             4,
             2,
