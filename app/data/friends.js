@@ -4,14 +4,14 @@ var friends = [
         "photo": "../public/img/captainamerica.jpeg",
         "scores":[
             1,
-            1,
+            5,
             3,
             4,
             5,
-            1,
             2,
-            5,
-            4,
+            1,
+            3,
+            1,
             1
           ]
       },
@@ -19,16 +19,16 @@ var friends = [
         "name":"Black Widow",
         "photo":"../public/img/blackwidow.jpg",
         "scores":[
-            5,
+            4,
+            2,
             1,
+            5,
+            3,
+            4,
             4,
             2,
             5,
-            1,
-            4,
-            5,
-            1,
-            1
+            2
           ]
       },
 
@@ -36,16 +36,16 @@ var friends = [
         "name":"Thor",
         "photo":"../public/img/thor.jpg",
         "scores":[
-            1,
-            1,
-            4,
-            3,
             5,
             3,
-            2,
+            5,
+            1,
+            3,
+            1,
+            3,
+            5,
             4,
-            4,
-            2
+            5
           ]
       },
 
@@ -53,16 +53,16 @@ var friends = [
         "name":"Hulk",
         "photo":"../public/img/hulk.jpg",
         "scores":[
+            5,
             3,
-            1,
-            2,
-            4,
-            2,
-            1,
+            5,
             1,
             5,
+            1,
+            1,
+            1,
             4,
-            2
+            1
           ]
       },
 
@@ -71,15 +71,15 @@ var friends = [
         "photo":"../public/img/ironman.jpg",
         "scores":[
             3,
-            1,
+            3,
+            3,
+            3,
+            5,
+            3,
+            4,
             2,
-            2,
-            2,
-            1,
-            1,
-            1,
-            1,
-            5
+            3,
+            4
           ]
       },      
 ] 
