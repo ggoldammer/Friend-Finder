@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Page | Gabriel Viveros-Goldammer</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="jumbotron bg-danger text-white">
+            <h1 class="text-center">
+                <span class="fa fa-check"></span> SuperSurvey</h1>
+            <hr>
+            <h2 class="text-center">Find your Super Friend!!!</h2>
+            <br>
+
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-header">
+                        SuperSurvey
+                    </div>
+                    <div class="card-body">
+                        <form role="form">
+                            <div class="form-group">
+                                <label for="survey-name">Name</label>
+                                <input type="text" class="form-control" id="survey-name">
+                            </div>
+                            <div class="form-group">
+                                <label for="survey-image">Link to Photo Image</label>
+                                <input type="text" class="form-control" id="survey-image">
+                            </div>
+
+                            <h6>You are prone to conflicts.</h6>
+                            <select data-placeholder="" class="chosen-select" id="q1">
+                                <option value=""></option>
+                                <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                            <br>
+                            <br>
+
+                            <h6>You have a strong sense of justice.</h6>
+                            <select data-placeholder="" class="chosen-select" id="q2">
+                                <option value=""></option>
+                                <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                            <br>
+                            <br>
+
+                            <h6>If there's an obstacle, brute force usually does the trick.</h6>
+                            <select data-placeholder="" class="chosen-select" id="q3">
+                                <option value=""></option>
+                                <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+
+                            <br>
+                            <br>
+                            <h6>Sometimes, the best way to solve problems is to avoid them.</h6>
+                            <select data-placeholder="" class="chosen-select" id="q4">
+                                <option value=""></option>
+                                <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                            <br>
+                            <br>
+
+                            <h6>People look up to you and seek your help.</h6>
+                            <select data-placeholder="" class="chosen-select" id="q5">
+                                <option value=""></option>
+                                <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                            <br>
+                            <br>
+                            <h6>Your brain gets in the way of your heart at times.</h6>
+                            <select data-placeholder="" class="chosen-select" id="q9">
+                                <option value=""></option>
+                                <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                            <br>
+                            <br>
+                            <h6>Sacrifices need to be made in order to make significant progress.</h6>
+                            <select data-placeholder="" class="chosen-select" id="q10">
+                                <option value=""></option>
+                                <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                            <br>
+                            <br>
+                            <h6>You confront the worst that life throws at you with a smile.</h6>
+                            <select data-placeholder="" class="chosen-select" id="q6">
+                                <option value=""></option>
+                                <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                            <br>
+                            <br>
+                            <h6>You prefer working alone vs working in a team.</h6>
+                            <select data-placeholder="" class="chosen-select" id="q7">
+                                <option value=""></option>
+                                <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                            <br>
+                            <br>
+                            <h6>You often seek leisure to avoid productivity.</h6>
+                            <select data-placeholder="" class="chosen-select" id="q8">
+                                <option value=""></option>
+                                <option selected="selected" value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                            <br>
+                            <br>
+                            <button type="submit" class="btn bg-danger text-white submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/ggoldammer/FriendFinder">Git
+                        Repository</a>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+
+<div id="resultsModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h2 class="modal-title">
+                    <strong>Your Match</strong>
+                </h2>
+            </div>
+            <div class="modal-body">
+                <h2 id="matchName"></h2>
+                <img id="matchImg" src="" alt="" height="300" width="250">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(".submit").on("click", function (event) {
+        event.preventDefault();
+
+        var newSurveySubmit = {
+            Name: $("#survey-name").val().trim(),
+            scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val(),]
+        };
+        $.post("/api/friends", newSurveySubmit,
+            function (data) {
+                $("#matchName").text(data.name);
+                $('#matchImg').attr("src", data.photo);
+                $("#resultsModal").modal('toggle');
+                // Clears the form
+                $("#survey-name").val("");
+                $("#survey-image").val("");
+            });
+    });
+</script>
+
+</html>
