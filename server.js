@@ -8,6 +8,8 @@ app.use(express.json);
 require("./app/routing/htmlRoutes")(app);
 require("./app/routing/apiRoutes")(app);
 
+//Start port listener
 app.listen(PORT, function(){
     console.log("Listening on PORT " + PORT);
 });
+
